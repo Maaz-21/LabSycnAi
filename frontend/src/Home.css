@@ -1,0 +1,172 @@
+/* Background Image and General Layout with Gradient */
+.home-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.example.com/your-image.jpg');  /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    color: white;
+    font-family: 'Poppins', sans-serif;  /* Custom Google Font for a modern look */
+    
+}
+
+/* Header Styling */
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 20px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Position Hamburger Menu on the Left of the Title */
+.hamburger {
+    font-size: 2.5rem;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Hamburger Menu Hover Effect */
+.hamburger:hover {
+    color: #f4d03f;
+    transform: rotate(90deg);  /* Smooth rotation when hovered */
+}
+
+/* Header Title Styling */
+.header h1 {
+    font-size: 3.5rem;
+    color: #f4d03f;
+    margin-left: 60px;  /* Space for hamburger */
+    letter-spacing: 2px;  /* Slight letter spacing for elegance */
+    font-weight: 600;
+    text-transform: uppercase;  /* Make title all caps for a modern look */
+}
+
+/* Search Bar Styling */
+.search-container {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.search-bar {
+    padding: 12px;
+    width: 50%;
+    font-size: 1.1rem;
+    border-radius: 25px;  /* Rounded corners */
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.8);  /* Slight transparency */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.search-bar:focus {
+    background-color: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.search-link button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-top: 15px; 
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-link button:hover {
+    background-color: #0056b3;
+}
+
+/* Side Panel Styling (Initially hidden) */
+.side-panel {
+    position: fixed;
+    top: 100px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 25px;
+    border-radius: 10px;
+    width: 250px;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+    box-shadow: 2px 0px 15px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s ease-in-out;
+}
+
+.side-panel ul {
+    list-style: none;
+    padding: 0;
+}
+
+.side-panel ul li {
+    margin: 20px 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: color 0.3s ease, padding-left 0.3s ease;
+}
+
+.side-panel ul li:hover {
+    color: #f4d03f;
+    padding-left: 15px;  /* Indent on hover for effect */
+}
+
+/* Recent Activity Panel */
+.recent-activity {
+    margin-top: 80px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.activity-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.activity-item {
+    background-color: #444;
+    padding: 15px;
+    margin: 15px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.activity-item:hover {
+    background-color: #f4d03f;
+    color: #333;
+    transform: scale(1.05);
+}
+
+/* Footer Styling */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    color: white;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
+.footer p {
+    margin: 0;
+}

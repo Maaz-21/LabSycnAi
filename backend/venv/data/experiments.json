@@ -1,0 +1,213 @@
+{
+    "experiments": [
+      {
+        "name": "Acid-Base Titration",
+        "methods": [
+          {
+            "method_name": "Standardization of NaOH",
+            "elaboration": "This method involves preparing a NaOH solution of known concentration by titrating it against a primary standard, such as KHP (potassium hydrogen phthalate).",
+            "Explanation": "",
+            "lab_manual": "1. Weigh a known amount of KHP. \n2. Dissolve it in water and titrate with NaOH. \n3. Calculate the concentration of NaOH using the volume and moles of KHP."
+          
+          },
+          {
+            "method_name": "Titration of Strong Acid with Strong Base",
+            "elaboration": "In this method, a strong acid (HCl) is titrated with a strong base (NaOH) to determine the concentration of the acid.",
+            "Explanation": "",
+            "lab_manual": "1. Add NaOH to HCl with phenolphthalein indicator. \n2. Record the volume of NaOH used at the endpoint. \n3. Calculate the concentration of HCl."
+          },
+          {
+            "method_name": "Titration of Weak Acid with Strong Base",
+            "elaboration": "This method is used to titrate a weak acid (e.g., acetic acid) with a strong base (NaOH) to find the equivalence point.",
+            "Explanation": "",
+            "lab_manual": "1. Add NaOH to acetic acid with phenolphthalein indicator. \n2. Determine the equivalence point by color change. \n3. Calculate the pKa of the acid."
+          }
+        ]
+      },
+      {
+        "name": "Gas Laws",
+        "methods": [
+          {
+            "method_name": "Boyle's Law",
+            "elaboration": "Boyle’s Law states that the pressure and volume of a gas are inversely proportional at constant temperature.",
+            "Explanation": "",
+            "lab_manual": "1. Measure the pressure and volume of a gas at constant temperature. \n2. Plot pressure vs. volume. \n3. Verify the inverse relationship."
+          },
+          {
+            "method_name": "Charles's Law",
+            "elaboration": "Charles's Law states that the volume of a gas is directly proportional to its temperature at constant pressure.",
+            "Explanation": "",
+            "lab_manual": "1. Heat a gas sample and record its volume at different temperatures. \n2. Plot volume vs. temperature. \n3. Confirm direct proportionality."
+          },
+          {
+            "method_name": "Avogadro's Law",
+            "elaboration": "Avogadro’s Law states that equal volumes of gases at the same temperature and pressure contain an equal number of molecules.",
+            "Explanation": "",
+            "lab_manual": "1. Measure the volume of gas at constant pressure and temperature. \n2. Vary the amount of gas and observe volume changes."
+          }
+        ]
+      },
+      {
+        "name": "Electrolysis of Water",
+        "methods": [
+          {
+            "method_name": "Electrolysis Using Platinum Electrodes",
+            "elaboration": "In this method, water is electrolyzed using platinum electrodes to decompose it into hydrogen and oxygen gas.",
+            "Explanation": "",
+            "lab_manual": "1. Set up the electrolysis apparatus. \n2. Pass current through water. \n3. Collect hydrogen and oxygen gases at the electrodes."
+          },
+          {
+            "method_name": "Electrolysis Using Graphite Electrodes",
+            "elaboration": "Graphite electrodes are used in electrolysis to observe the decomposition of water into hydrogen and oxygen.",
+            "Explanation": "",
+            "lab_manual": "1. Use graphite electrodes in an electrolyte solution. \n2. Apply voltage and observe gas production at the electrodes."
+          },
+          {
+            "method_name": "Effect of Voltage on Electrolysis",
+            "Explanation": "",
+            "elaboration": "This method investigates how varying voltage affects the rate of electrolysis and the volume of gases produced.",
+            "lab_manual": "1. Vary the voltage supplied to the electrolysis apparatus. \n2. Measure the gas volumes produced at different voltages."
+          }
+        ]
+      },
+      {
+        "name": "Flame Test",
+        "methods": [
+          {
+            "method_name": "Flame Test for Sodium",
+            "Explanation": "",
+            "elaboration": "The flame test is used to detect the presence of sodium ions by observing the yellow flame produced.",
+            "lab_manual": "1. Place a sample of the substance in a flame. \n2. Observe the yellow color, which indicates the presence of sodium."
+          },
+          {
+            "method_name": "Flame Test for Potassium",
+            "elaboration": "In this method, potassium ions produce a lilac flame when exposed to heat.",
+            "Explanation": "",
+            "lab_manual": "1. Place a sample of potassium salt in a flame. \n2. Observe the lilac flame to confirm the presence of potassium."
+          },
+          {
+            "method_name": "Flame Test for Copper",
+            "elaboration": "Copper ions produce a green flame, which is used to identify copper salts in a sample.",
+            "Explanation": "",
+            "lab_manual": "1. Introduce copper salts into the flame. \n2. Observe the green flame, indicating the presence of copper ions."
+          }
+        ]
+      },
+      {
+        "name": "Chromatography",
+        "methods": [
+          {
+            "method_name": "Paper Chromatography",
+            "elaboration": "Paper chromatography separates mixtures of substances based on their different solubilities in a solvent.",
+            "Explanation": "",
+            "lab_manual": "1. Apply a drop of the mixture onto chromatography paper. \n2. Place the paper in a solvent. \n3. Observe the separation of components."
+          },
+          {
+            "method_name": "Thin-Layer Chromatography",
+            "elaboration": "This technique uses a thin layer of adsorbent material (like silica gel) to separate mixtures.",
+            "Explanation": "",
+            "lab_manual": "1. Spot the sample onto a TLC plate. \n2. Develop the plate in a solvent. \n3. Visualize the separated components under UV light."
+          },
+          {
+            "method_name": "Column Chromatography",
+            "elaboration": "Column chromatography separates compounds by passing a mixture through a column filled with adsorbent material.",
+            "Explanation": "",
+            "lab_manual": "1. Pack the column with stationary phase. \n2. Elute the mixture with a solvent. \n3. Collect the fractions and analyze."
+          }
+        ]
+      },
+      {
+        "name": "Synthesis of Aspirin",
+        "methods": [
+          {
+            "method_name": "Acetylation of Salicylic Acid",
+            "elaboration": "Salicylic acid reacts with acetic anhydride to form aspirin in an acetylation reaction.",
+            "Explanation": "",
+            "lab_manual": "1. Mix salicylic acid with acetic anhydride. \n2. Heat the mixture and observe the formation of aspirin. \n3. Purify the product through recrystallization."
+          },
+          {
+            "method_name": "Purification of Aspirin",
+            "elaboration": "Aspirin is purified by recrystallization to remove impurities.",
+            "Explanation": "",
+            "lab_manual": "1. Dissolve impure aspirin in hot ethanol. \n2. Filter and cool the solution to allow crystals to form. \n3. Dry the crystals."
+          },
+          {
+            "method_name": "Characterization of Aspirin",
+            "elaboration": "Aspirin is characterized using melting point determination and IR spectroscopy.",
+            "Explanation": "",
+            "lab_manual": "1. Determine the melting point of the synthesized aspirin. 2. Use IR spectroscopy to confirm the functional groups."
+          }
+        ]
+      },
+      {
+        "name": "Redox Reactions",
+        "methods": [
+          {
+            "method_name": "Oxidation of Iron",
+            "elaboration": "Iron undergoes oxidation to form iron(III) oxide (rust) when exposed to oxygen.",
+            "Explanation": "",
+            "lab_manual": "1. Expose iron filings to air. \n2. Observe the formation of rust (iron(III) oxide)."
+          },
+          {
+            "method_name": "Reduction of Copper(II) Sulfate",
+            "elaboration": "Copper(II) sulfate is reduced to copper metal in a redox reaction with zinc.",
+            "Explanation": "",
+            "lab_manual": "1. Add zinc to copper(II) sulfate solution. \n2. Observe the displacement reaction and formation of copper metal."
+          },
+          {
+            "method_name": "Electrochemical Cell",
+            "elaboration": "An electrochemical cell generates electrical energy from a redox reaction between zinc and copper.",
+            "Explanation": "",
+            "lab_manual": "1. Set up a galvanic cell with zinc and copper electrodes. \n2. Measure the voltage generated by the cell."
+          }
+        ]
+      },
+      {
+        "name": "Reversible Reactions",
+        "methods": [
+          {
+            "method_name": "Haber Process",
+            "elaboration": "The Haber process synthesizes ammonia from nitrogen and hydrogen gas under high pressure and temperature.",
+            "Explanation": "",
+            "lab_manual": "1. Mix nitrogen and hydrogen gases. \n2. Pass the mixture over an iron catalyst at high temperature and pressure."
+          },
+          {
+            "method_name": "Equilibrium in a Closed System",
+            "elaboration": "This method investigates the dynamic equilibrium between reactants and products in a reversible reaction.",
+            "Explanation": "",
+            "lab_manual": "1. Set up a closed container with a reversible reaction. \n2. Observe the concentrations of reactants and products over time."
+          },
+          {
+            "method_name": "Le Chatelier's Principle",
+            "elaboration": "Le Chatelier's Principle predicts how a system at equilibrium responds to changes in concentration, pressure, or temperature.",
+            "Explanation": "",
+            "lab_manual": "1. Add or remove reactants or products in a reversible reaction. \n2. Observe the shift in equilibrium position."
+          }
+        ]
+      },
+      {
+        "name": "Stoichiometry",
+        "methods": [
+          {
+            "method_name": "Mole-to-Mole Conversions",
+            "elaboration": "This method demonstrates stoichiometric calculations involving the conversion between moles of reactants and products.",
+            "Explanation": "",
+            "lab_manual": "1. Use the balanced chemical equation. \n2. Calculate the moles of products from the given reactant."
+          },
+          {
+            "method_name": "Limiting Reactant Calculation",
+            "elaboration": "The limiting reactant determines the amount of product that can be formed in a chemical reaction.",
+            "Explanation": "",
+            "lab_manual": "1. Identify the limiting reactant. \n2. Calculate the theoretical yield based on the limiting reactant."
+          },
+          {
+            "method_name": "Percent Yield Determination",
+            "elaboration": "Percent yield is calculated to determine the efficiency of a chemical reaction.",
+            "Explanation": "",
+            "lab_manual": "1. Measure the actual yield of the reaction. \n2. Calculate the percent yield using the formula."
+          }
+        ]
+      }
+    ]
+  }
+  
