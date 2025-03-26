@@ -30,9 +30,6 @@ openai==1.68.2
 orjson==3.10.16
 propcache==0.3.0
 pydantic
-pydantic-extra-type
-pydantic-settings
-pydantic_core
 Pygments==2.19.1
 python-dotenv==1.0.0
 python-multipart==0.0.6
