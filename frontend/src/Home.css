@@ -1,12 +1,16 @@
 /* Background Image and General Layout with Gradient */
 .home-container {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.example.com/your-image.jpg');  /* Replace with your image URL */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.example.com/your-image.jpg');
+    /* Replace with your image URL */
     background-size: cover;
     background-position: center;
     min-height: 100vh;
     color: white;
-    font-family: 'Poppins', sans-serif;  /* Custom Google Font for a modern look */
-    
+    font-family: 'Poppins', sans-serif;
+    /* Custom Google Font for a modern look */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 /* Header Styling */
@@ -14,8 +18,6 @@
     text-align: center;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.8);
-    margin-top: 20px;
-    border-radius: 10px;
     position: relative;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
@@ -34,36 +36,51 @@
 /* Hamburger Menu Hover Effect */
 .hamburger:hover {
     color: #f4d03f;
-    transform: rotate(90deg);  /* Smooth rotation when hovered */
+    transform: rotate(90deg);
+    /* Smooth rotation when hovered */
 }
 
 /* Header Title Styling */
 .header h1 {
     font-size: 3.5rem;
     color: #f4d03f;
-    margin-left: 60px;  /* Space for hamburger */
-    letter-spacing: 2px;  /* Slight letter spacing for elegance */
+    margin-left: 60px;
+    /* Space for hamburger */
+    letter-spacing: 2px;
+    /* Slight letter spacing for elegance */
     font-weight: 600;
-    text-transform: uppercase;  /* Make title all caps for a modern look */
+    text-transform: uppercase;
+    /* Make title all caps for a modern look */
 }
 
 /* Search Bar Styling */
 .search-container {
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
 
 .search-bar {
     padding: 12px;
     width: 50%;
     font-size: 1.1rem;
-    border-radius: 25px;  /* Rounded corners */
+    border-radius: 25px;
+    /* Rounded corners */
     border: none;
     outline: none;
-    background-color: rgba(255, 255, 255, 0.8);  /* Slight transparency */
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Slight transparency */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease;
+}
+
+.search-button {
+    width: 200px;
+    height: 45px;
+    border-radius: 25px;
+    outline: 1px solid white;
+    border: 1px solid white;
+    margin-left: 16px;
 }
 
 .search-bar:focus {
@@ -74,7 +91,7 @@
 .search-link button {
     padding: 10px 20px;
     font-size: 1rem;
-    margin-top: 15px; 
+    margin-top: 15px;
     color: white;
     background-color: #007BFF;
     border: none;
@@ -119,7 +136,8 @@
 
 .side-panel ul li:hover {
     color: #f4d03f;
-    padding-left: 15px;  /* Indent on hover for effect */
+    padding-left: 15px;
+    /* Indent on hover for effect */
 }
 
 /* Recent Activity Panel */
@@ -128,7 +146,6 @@
     text-align: center;
     background-color: rgba(0, 0, 0, 0.7);
     padding: 30px;
-    border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -156,8 +173,6 @@
 
 /* Footer Styling */
 .footer {
-    position: absolute;
-    bottom: 0;
     width: 100%;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.8);
